@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.autodesk.orgassignmenttest.CopyBillAddIsEnabled">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAT"/>
+          <include name="verifycopyBillingButtonIsEnabledTest"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.orgassignmenttest.CopyBillAddIsEnabled -->
+      <class name="com.crm.autodesk.orgassignmenttest.CopyShipAddIsEnabled">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="verifyCopyShipButtonIsEnabled"/>
+          <include name="configAT"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.orgassignmenttest.CopyShipAddIsEnabled -->
+      <class name="com.crm.autodesk.orgassignmenttest.VerifyNotifyOwnerOptionEnabled">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAT"/>
+          <include name="verifyNotifyOwnerOptionEnabledTest"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.orgassignmenttest.VerifyNotifyOwnerOptionEnabled -->
+      <class name="com.crm.autodesk.orgassignmenttest.VerifyRatingDropDown">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="verifyRatingDropDownIsEnabled"/>
+          <include name="configAT"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.orgassignmenttest.VerifyRatingDropDown -->
+      <class name="com.crm.autodesk.orgassignmenttest.CreateOrgWithNotifyOwner">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAT"/>
+          <include name="createOrgWithNotifyOwnerOptionTest"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.orgassignmenttest.CreateOrgWithNotifyOwner -->
+      <class name="com.crm.autodesk.orgassignmenttest.CearteOrgWithRating">
+        <methods>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBT"/>
+          <include name="createOrgwithRatingTest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAT"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.autodesk.orgassignmenttest.CearteOrgWithRating -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
